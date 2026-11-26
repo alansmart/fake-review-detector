@@ -1,0 +1,22 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local data and generated model artifacts
+data/raw/
+data/processed/
+models/
+*.npy
+*.pt
+*.joblib
+
+# Notebook and local editor state
+.ipynb_checkpoints/
+.vscode/
